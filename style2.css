@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+}
 .qx{
     display: flex;
 
@@ -142,6 +147,10 @@ section{
     margin-top: 8%;
     margin-left: 5%;
     gap: 5%;
+    position: fixed;
+    top: 20px;
+    left: 5px;
+    background-color: white;
     
 
 }
@@ -230,6 +239,10 @@ section{
     border-radius: 20px;
     margin-bottom: 100px;
     text-overflow: none;
+    position: relative;
+    left: 450px;
+    top: 100px;
+    z-index: -1;
 
 }
 .g{
